@@ -1,13 +1,3 @@
- 
-<center><img src="https://i.imgur.com/EZtECRw.png"></center>
-
----
-
-<h3><b>Guru Nanak Dev Engineering College
-    ESC-18104/18105 Programming for Problem Solving</b>
-  
-  
-     
     Name Harkirat kaur 
     Branch-InformationTechnology
     Section - A2 
