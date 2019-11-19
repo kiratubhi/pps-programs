@@ -8,10 +8,10 @@
   
   
      
-    Name-Jaskaran singh 
+    Name Harkirat kaur 
     Branch-InformationTechnology
     Section - A2 
-    Roll Number - 1921048
+    Roll Number - 1921036
     
     # My C programes 
 
@@ -726,6 +726,5 @@ eyJoaXN0b3J5IjpbLTE1MzA1MDQxMjksMTk4NTg2OTYzMSwxOT
 UwNjM2OTVdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkyNTI4MjAsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMjYwMDY1Mjg3XX0=
 -->
