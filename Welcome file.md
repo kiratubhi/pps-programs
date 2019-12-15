@@ -11,7 +11,7 @@
     Roll Number - 1921036
     University roll number - 1905334
     
-    # My C programes 
+    # My C programs 
 ----
 ## INDEX
  
