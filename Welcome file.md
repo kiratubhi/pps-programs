@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png">
+  <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png"><br><h3>
 <b>Guru Nanak Dev Engineering College<br>
         Programming for Problem Solving 
  <br>ESC-18105</b>
