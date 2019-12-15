@@ -1,8 +1,6 @@
 <p align="center">
   <img  src="https://camo.githubusercontent.com/afa8a796493893ef4246c5e496b09300216e1340/68747470733a2f2f7777772e676e6465632e61632e696e2f6c6f676f2e706e67">
-  </p><br>
-### Center-aligned
-{: .text-center}
+  </p>
 <b><h3>
    Programming for Problem Solving 
  <br>ESC-18105</b>
