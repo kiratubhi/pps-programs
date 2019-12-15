@@ -401,8 +401,10 @@ enter the ending number5
  5 X 10 =50
 ```
 ----
+````
 ## 14:Write a program to show even table range.
 ```
+
 #include<stdio.h>
 int main()
 {
