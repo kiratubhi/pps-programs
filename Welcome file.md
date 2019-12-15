@@ -1,15 +1,15 @@
 <p align="center">
   <img  src="https://camo.githubusercontent.com/afa8a796493893ef4246c5e496b09300216e1340/68747470733a2f2f7777772e676e6465632e61632e696e2f6c6f676f2e706e67">
-  </p><br><h1>
-<b>Guru Nanak Dev Engineering College<br>
-        Programming for Problem Solving 
+  </p><br>
+<b><h3>
+   Programming for Problem Solving 
  <br>ESC-18105</b>
 
-    Name Harkirat kaur <br>
-    Branch-InformationTechnology<br>
-    Section - A2 <br>
-    Roll Number - 1921036<br>
-    University roll number - 1905334<br>
+    Name Harkirat kaur 
+    Branch-InformationTechnology
+    Section - A2 
+    Roll Number - 1921036
+    University roll number - 1905334
     
     # My C programes 
 
