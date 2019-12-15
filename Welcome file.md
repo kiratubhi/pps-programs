@@ -1,4 +1,4 @@
-<p align="center"><h2>
+<p align="center">
   <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png">
 <b>Guru Nanak Dev Engineering College<br>
         Programming for Problem Solving 
