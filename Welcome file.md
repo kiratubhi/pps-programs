@@ -15,29 +15,29 @@
 ----
 ## INDEX
  
-  1.Write a program to print Hello World.
-  2.Write a program to fill your information.
-  3.Write a program to find Sum of 2 numbers.
-  4.Write a program to Sum and average of numbers.
-  5.Write a program to find whether the Number is Even or Odd.
-  6.Write a program to swap two numbers.
-  7.Write a program to show years of experience of the employees.
-  8.Write a program to show puts value upto n number using loop.
-  9.Write a programto find Area, circumference of a Circle.
-  10.Write a program to find Area and volume of a Rectangle.
-  11.Write a program to represent a table.
-  12.Write a program to convert Fahrehnite to Celcius.
-  13.Write a program to show table range.
-  14.Write a program to show even table range.
-  15.Write a program to show result of operands.
-  16.Write a program to call a patterns of face and calculator.
-  17.Write a program to find Maximum number.
-  18.Write a program to find Average of numbers.
-  19.Write a program to find Factorial using recursion .
-  20.Write a program of Addition and subtraction of 2 Matrix
-  21.Write a program of Multiplication of  Matrix
-  22.Write a program to find Prime number
-  23.Write a program of days of the week
+  1. Write a program to print Hello World.
+  2. Write a program to fill your information.
+  3. Write a program to find Sum of 2 numbers.
+  4. Write a program to Sum and average of numbers.
+  5. Write a program to find whether the Number is Even or Odd.
+  6. Write a program to swap two numbers.
+  7. Write a program to show years of experience of the employees.
+  8. Write a program to show puts value upto n number using loop.
+  9. Write a programto find Area, circumference of a Circle.
+ 10. Write a program to find Area and volume of a Rectangle.
+ 11. Write a program to represent a table.
+ 12. Write a program to convert Fahrehnite to Celcius.
+ 13. Write a program to show table range.
+ 14. Write a program to show even table range.
+ 15. Write a program to show result of operands.
+ 16. Write a program to call a patterns of face and calculator.
+ 17. Write a program to find Maximum number.
+ 18. Write a program to find Average of numbers.
+ 19. Write a program to find Factorial using recursion .
+ 20. Write a program of Addition and subtraction of 2 Matrix
+ 21. Write a program of Multiplication of  Matrix
+ 22. Write a program to find Prime number
+ 23. Write a program of days of the week
 
 
 ## 1:Write a program to print hello world.
@@ -605,16 +605,15 @@ ___________________
          result = x;
          return result;
     }
-
-**Output**
-
+````
+**OUTPUT**:
+````
 Enter The First Value: 5
 
 Enter The Second Value: 4
 
 Maximum value is: 5.00
-
-```
+````
 
 ## 18:Write a program to find average of numbers.
 ```
@@ -838,14 +837,15 @@ if(b== 0)
 printf("%d is a Prime Number",a);
 return 0;
 }
-
+````
 **Output**
+````
   Enter the Number: 7
   7 is a Prime Number
 
   Enter the Number: 8
   8 is not a Prime Number
-```
+````
 ##23:Write a program of days of the week.
 ```
      #include<stdio.h>
@@ -880,10 +880,11 @@ return 0;
      } 
      return 0;
      }
+````
 **Output**
-
+````
 Enter the day Number: 3
 
 Tuesday
-```
+````
 
