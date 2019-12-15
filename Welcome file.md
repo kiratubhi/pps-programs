@@ -1,13 +1,13 @@
 <p align="center">
   <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png">
 </p>
----
 
+---
+<p align="center">
 <h3><b><center>Guru Nanak Dev Engineering College<br>
         Programming for Problem Solving 
  <br>ESC-18105</center></b>
-  
-  <body bgcolor="pink"> 
+  </p>
      
     Name Harkirat kaur 
     Branch-InformationTechnology
