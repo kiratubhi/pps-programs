@@ -137,58 +137,59 @@ The  number is even
 Enter a number:7
 The number is odd
 ```
-## 6:Write a program to show the size of int,float,char,double,long,short.
+## 6:Write a program to swap two numbers.
 ```
- // size of int, float, char, double, long, short
 #include<stdio.h>
+int swap(int a,int b);
 int main()
-{                                   
- printf("Integer:%d\n",sizeof(int));
- printf("float:%d\n",sizeof(float));
- printf("character:%d\n",sizeof(char));
- printf("double:%d\n",sizeof(double));
- printf("short:%d\n",sizeof(short));
- printf("long:%d\n",sizeof(long));
- }
-```
-**OUTPUT**:
-```
-Integer:4
-float:4
-character:1
-double:8
-short:2
-long:8
-```
-## 7:Write a program to show area,perimeter,volume of square
-```
-   
- //Area,premiter,volume of square
-  #include<stdio.h>
-void square();
-int main()
-{     
- square();
- return 0;
-}                                    
-void square()
 {
- int side;
- printf("Enter the side of square:");
- scanf("%d",&side);
-
- printf("\nPerimeter of square:%d",4*side);
- printf("\nArea of square:%d",side*side);
- printf("\nVolume of square:%d\n",side*side*side);
+int a,b;
+printf("please enter 2 integer values a and b:\n");
+scanf("%d %d",&a,&b);
+swap(a,b);
+}
+int swap(int a,int b)
+{
+a=a+b;
+b=a-b;
+a=a-b;
+printf("value of a is:%d\n",a);
+printf("value of b is:%d\n",b);
 }
 ```
 **OUTPUT**:
 ```
-Enter the side of square:4
-
-Perimeter of square:16
-Area of square:16
-Volume of square:64
+please enter 2 integer values a and b:
+2
+8
+value of a is:8
+value of b is:2
+```
+## 7:Write a program to show years of experience of the employees.
+```
+#include<stdio.h>
+int main()
+{
+int n,y,sum=0;
+printf("\n enter number of employees");
+scanf("%d",&n);
+for(int i=1;i<=n;i++)
+{
+printf("enter the data of %d employee",i);
+scanf("%d",&y);
+sum=sum+y;
+}
+printf("%d",sum);
+return 0;
+}
+```
+**OUTPUT**:
+```
+ enter number of employees3
+enter the data of 1 employee4
+enter the data of 2 employee4
+enter the data of 3 employee6
+14
 ```
 ## 8:Write a program to show puts value upto n number using loop.
 ```
@@ -326,80 +327,113 @@ The celcius value is:232.222229
 #include<stdio.h>
 int main()
 {
- int a,b,n;
- printf("table of:");
- scanf("%d",&a);
- printf("\n enter the starting value of range:");
- scanf("%d",&b);
- printf("\n enter the last value of range:");
- scanf("%d",&n);
- for(b;b<=n;b++)
- printf("%d x %d = %d\n",a,b,a*b);
- return 0;
- }
+int b,c,i,x;
+printf("enter the starting number");
+scanf("%d",&b);
+printf("enter the ending number");
+scanf("%d",&c);
+for(i=b;i<=c;i++)
+{
+for(x=1;x<=10;x++){
+printf("\n %d X %d =%d",i,x,i*x);
+}
+}
+return 0;
+}
 ```
 **OUTPUT**:
 ```
-table of:5
+enter the starting number3
+enter the ending number5
 
- enter the starting value of range:20
-
- enter the last value of range:30
-5 x 20 = 100
-5 x 21 = 105
-5 x 22 = 110
-5 x 23 = 115
-5 x 24 = 120
-5 x 25 = 125
-5 x 26 = 130
-5 x 27 = 135
-5 x 28 = 140
-5 x 29 = 145
-5 x 30 = 150
+ 3 X 1 =3
+ 3 X 2 =6
+ 3 X 3 =9
+ 3 X 4 =12
+ 3 X 5 =15
+ 3 X 6 =18
+ 3 X 7 =21
+ 3 X 8 =24
+ 3 X 9 =27
+ 3 X 10 =30
+ 4 X 1 =4
+ 4 X 2 =8
+ 4 X 3 =12
+ 4 X 4 =16
+ 4 X 5 =20
+ 4 X 6 =24
+ 4 X 7 =28
+ 4 X 8 =32
+ 4 X 9 =36
+ 4 X 10 =40
+ 5 X 1 =5
+ 5 X 2 =10
+ 5 X 3 =15
+ 5 X 4 =20
+ 5 X 5 =25
+ 5 X 6 =30
+ 5 X 7 =35
+ 5 X 8 =40
+ 5 X 9 =45
+ 5 X 10 =50
 ```
 ## 14:Write a program to show even table.
 ```
 //To show only even table
 #include<stdio.h>
-int main(){
-int m;
-printf("tabel of:");
-scanf("%d",&m);
-if(m%2==0)
+int main()
 {
-for(int i=0;i<=20;i++)
+int a,b,i,x;
+printf("enter the starting and ending number");
+scanf("%d%d",&a,&b);
+for (i=a;i<=b;i++)
 {
-printf("%d X %d=%d\n",m,i,m*i);
-}}
-else
-printf("enter even number\n");
-
-return 0;}
+ if(i%2==0)
+  {
+    for(x=1;x<=10;x++)
+      {
+        printf("\n%d X %d = %d ",i,x,i*x);
+      }
+  }
+}
+return 0;
+}   
 ```
 **OUTPUT**:
 ```
-tabel of:16
-16 X 0=0
-16 X 1=16
-16 X 2=32
-16 X 3=48
-16 X 4=64
-16 X 5=80
-16 X 6=96
-16 X 7=112
-16 X 8=128
-16 X 9=144
-16 X 10=160
-16 X 11=176
-16 X 12=192
-16 X 13=208
-16 X 14=224
-16 X 15=240
-16 X 16=256
-16 X 17=272
-16 X 18=288
-16 X 19=304
-16 X 20=320
+enter the starting and ending number2
+7
+
+2 X 1 = 2 
+2 X 2 = 4 
+2 X 3 = 6 
+2 X 4 = 8 
+2 X 5 = 10 
+2 X 6 = 12 
+2 X 7 = 14 
+2 X 8 = 16 
+2 X 9 = 18 
+2 X 10 = 20 
+4 X 1 = 4 
+4 X 2 = 8 
+4 X 3 = 12 
+4 X 4 = 16 
+4 X 5 = 20 
+4 X 6 = 24 
+4 X 7 = 28 
+4 X 8 = 32 
+4 X 9 = 36 
+4 X 10 = 40 
+6 X 1 = 6 
+6 X 2 = 12 
+6 X 3 = 18 
+6 X 4 = 24 
+6 X 5 = 30 
+6 X 6 = 36 
+6 X 7 = 42 
+6 X 8 = 48 
+6 X 9 = 54 
+6 X 10 = 60
 ```
 ## 15: Write a program to show result of operands.
 ```
@@ -408,35 +442,35 @@ tabel of:16
 int main()
 {
 float a,b;
- char c;
-printf("enter first  number:");
-scanf("%f",&a);
-printf("enter operator[+ - % / *]:");
-scanf(" %c",&c);
-printf("enter second number:");
-scanf("%f",&b);
-int d,r;
-d=(int) a;
-r=(int) b;
-switch(c)
+int c;
+char op;
+printf("\n enter the number");
+scanf("%f%f",&a,&b);
+printf("\n enter the operator ");
+scanf(" %c",&op);
+switch(op)
 {
-case '+': printf("The result is:%.2f\n",a+b); break;
-case '-':printf("The result is:%.2f\n",a-b); break;
-case '*':printf("The result is:%.2f\n",a*b); break;
-case '%':printf("The result is:%d\n",d%r); break;
-case '/':printf("The result is:%.2f\n",a/b); break;
-default : printf("Enter correct operator ");
+case '+':printf("%f",a+b);
+break;
+case '-':printf("%f",a-b);
+break;
+case '*':printf("%f",a*b);
+break;
+case '/':printf("%f",a/b);
+break;
+case '%':c=(int)a%(int )b;
+printf("%d",c);
+break;
+default:printf("invalid statement");
 }
-return 0;
 }
 ```
 
 **OUTPUT**:
-```
-enter first  number:20
-enter operator[+ - % / *]: *
-enter second number:10
-The result is:200.00
+``` enter the number4
+6
+ enter the operator +
+10.000000
 ```
 ## 16:Write a program to call a patterns of face and calculator.
 ```
@@ -597,28 +631,33 @@ Maximum value is: 5.00
  Average of 8 elements = 4.500
 ```
  
- ## 19:Write a program to show factorial of a number.
+ ## 19:Write a program to show factorial of a number using recursion.
  ```
- //To show factorial of user input
-#include<stdio.h>
-int main()
-{
- int a,result=1;
- printf("Enter the factorial of:");
- scanf("%d",&a);
- for(int i=a;i>=1;i--)
-{
-printf("%d X ",i);
-result=result*i;
-}
-printf("= %d\n",result);
+ #include<stdio.h>
+int factorial(int n);
+int main(){
+printf("enter a number ");
+int fact;
+scanf("%d",&fact);
+printf("%d\n",factorial(fact));
+
 return 0;
+}
+int factorial(int n)
+{int a;
+
+if(n==0){a=1;
+
+}
+else
+a=n*factorial(n-1);
+
+return a;
 }
 ```
 **OUTPUT**:
-```
-Enter the factorial of:5
-5 X 4 X 3 X 2 X 1 X = 120
+```enter a number 5
+120
 ```
  ## 20:Write a program to show addition and subtraction of two matrices.
  ```
