@@ -34,16 +34,15 @@
  17. Write a program to find Maximum number.
  18. Write a program to find Average of numbers.
  19. Write a program to find Factorial using recursion .
- 20. Write a program of Addition and subtraction of 2 Matrix
- 21. Write a program of Multiplication of  Matrix
- 22. Write a program to find Prime number
- 23. Write a program of days of the week
-
+ 20. Write a program of Addition and subtraction of 2 Matrix.
+ 21. Write a program of Multiplication of  Matrix.
+ 22. Write a program to find Prime number.
+ 23. Write a program of days of the week.
+----
 
 ## 1:Write a program to print hello world.
 
 ```
-//To print  hello world
 #include<stdio.h>
 int main()
 {                     
@@ -54,10 +53,10 @@ int main()
 ``` 
  Hello world
 ```
+----
 ## 2:Write a program to fill your information.
 
 ```
-  // To fill your information
 #include<stdio.h>
   int main()
   { 
@@ -92,11 +91,9 @@ Your roll no is 1905334
 My phone number is 9922115566
  My age is 18
  ```
-
+----
 ## 3:Write a program to find sum of two numbers
 ```
-
-     // to find sum of two numbers
      #include<stdio.h>
 int main()
 {                                                                                      
@@ -115,9 +112,9 @@ Enter two numbers to get sum:45 55
  
 The result is :45 + 55= 100
 ```
+----
 ## 4:Write a program to Sum and average of numbers
 ```
- // sum and average of number
 #include<stdio.h>
   int main()
  {                                 
@@ -131,13 +128,15 @@ The result is :45 + 55= 100
    printf("The average is:%d\n",avg);
   }
 ``` 
+----
 **OUTPUT**:
 ```
 Enter five numbers:1 2 3 4 5 
 The sum is:15
 The average is:3
 ```
-  ## 5:Write a program to find number is even or odd.
+----
+## 5:Write a program to find number is even or odd.
   ```
        #include<stdio.h>
 int main()
@@ -161,6 +160,7 @@ The  number is even
 Enter a number:7
 The number is odd
 ```
+----
 ## 6:Write a program to swap two numbers.
 ```
 #include<stdio.h>
@@ -189,6 +189,7 @@ please enter 2 integer values a and b:
 value of a is:8
 value of b is:2
 ```
+----
 ## 7:Write a program to show years of experience of the employees.
 ```
 #include<stdio.h>
@@ -215,9 +216,9 @@ enter the data of 2 employee4
 enter the data of 3 employee6
 14
 ```
+----
 ## 8:Write a program to show puts value upto n number using loop.
 ```
-// to show punishment using loop
  #include<stdio.h>
  int main()
  {
@@ -243,6 +244,7 @@ WORK HARD AND ACHIEVE SUCCESS
 WORK HARD AND ACHIEVE SUCCESS 
 WORK HARD AND ACHIEVE SUCCESS
 ```
+----
 ## 9:Write a program to show area,diameter,circumference of circle .
 ```
    #include<stdio.h>
@@ -265,9 +267,9 @@ diameter of circle is:12.000000
 circumference of circle:37.680000
 Area of circle:113.040001
 ```
+----
 ## 10:Write a program to find area and volume of rectangle.
 ```
-//find area and volume of rectangle
 #include<stdio.h>
 int main()
 {
@@ -294,11 +296,9 @@ Enter height of rectangle:4
 The area of rectangle is:12
 The volume is :48
 ```
- 
+ ----
  ##  11 .Write a program to represent a table of user input .
- 
- ```
-  // To represent a table of user input  number
+ ````
  #include<stdio.h>
  int main()
  {
@@ -326,9 +326,9 @@ return 0;
 15 x 9 = 135
 15 x 10 = 150
 ```
+----
 ## 12:Write a program to convert Fahrehnite to Celcius.
 ```
-//to convert fahrehnite to celcius
 #include<stdio.h>
 int main(){
 float f,c;
@@ -347,7 +347,6 @@ The celcius value is:232.222229
 ```
 ## 13: Write a program to show the table range .
 ```
-//To show a range of table upto user input
 #include<stdio.h>
 int main()
 {
@@ -401,9 +400,9 @@ enter the ending number5
  5 X 9 =45
  5 X 10 =50
 ```
+----
 ## 14:Write a program to show even table range.
 ```
-//To show only even table
 #include<stdio.h>
 int main()
 {
@@ -459,9 +458,9 @@ enter the starting and ending number2
 6 X 9 = 54 
 6 X 10 = 60
 ```
+----
 ## 15:Write a program to show result of operands.
 ```
-//To show results using operands(+,-,*,%,/)
 #include<stdio.h>
 int main()
 {
@@ -496,9 +495,9 @@ default:printf("invalid statement");
  enter the operator +
 10.000000
 ```
+----
 ## 16:Write a program to call a patterns of face and calculator.
 ```
-// call a pattern of face or calculator
              #include<stdio.h>
 
 void calculator();
@@ -581,6 +580,7 @@ ___________________
 |        |        |
 |________|________|
 ```
+----
 ## 17:Write a program to find maximum number.
 ```
  #include<stdio.h>
@@ -614,7 +614,7 @@ Enter The Second Value: 4
 
 Maximum value is: 5.00
 ````
-
+----
 ## 18:Write a program to find average of numbers.
 ```
   #include<stdio.h>
@@ -653,7 +653,7 @@ Maximum value is: 5.00
  
  Average of 8 elements = 4.500
 ```
- 
+ ----
  ## 19:Write a program to show factorial of a number using recursion.
  ```
  #include<stdio.h>
@@ -682,6 +682,7 @@ return a;
 ```enter a number 5
 120
 ```
+---
  ## 20:Write a program to show addition and subtraction of two matrices.
  ```
  #include<stdio.h>
@@ -758,7 +759,7 @@ Substraction of Matrix(A-B) is: | 4.00     0.00 |
 Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                 | 5.00     1.00 |
 ```
-
+----
 ## 21:Write a program to show Matrix multipication.
  ```
  #include<stdio.h>
@@ -818,6 +819,7 @@ Enter The Valve of h: 1
 Multiplication of A,B is: | 66.00     40.00 |
                           | 12.00     20.00 |
 ```
+----
 ## 22: Write a program to find Prime number.
 ```
 #include<stdio.h>
@@ -846,7 +848,8 @@ return 0;
   Enter the Number: 8
   8 is not a Prime Number
 ````
-##23:Write a program of days of the week.
+----
+## 23:Write a program of days of the week.
 ```
      #include<stdio.h>
      int main()
