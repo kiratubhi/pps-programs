@@ -1,10 +1,11 @@
  
-<center><img src="https://i.imgur.com/EZtECRw.png" align="center"></center>
+<img src="https://i.imgur.com/EZtECRw.png" align="center">
 
 ---
 
 <h3><b>Guru Nanak Dev Engineering College<br>
-    ESC-18104/18105 Programming for Problem Solving</b>
+    ESC-18105
+ <br>Programming for Problem Solving</b>
   
   
      
