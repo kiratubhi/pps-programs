@@ -1,5 +1,5 @@
  
-<center><img src="https://i.imgur.com/EZtECRw.png"></center>
+<centre><img src="https://i.imgur.com/EZtECRw.png"></centre>
 
 ---
 
