@@ -4,12 +4,12 @@
         Programming for Problem Solving 
  <br>ESC-18105</b>
   </p> 
-  ---
-    Name Harkirat kaur 
-    Branch-InformationTechnology
-    Section - A2 
-    Roll Number - 1921036
-    University roll number - 1905334
+    Name Harkirat kaur <br>
+    Branch-InformationTechnology<br>
+    Section - A2 <br>
+    Roll Number - 1921036<br>
+    University roll number - 1905334<br>
+    
     # My C programes 
 
 ## 1:Write a program to print hello world.
