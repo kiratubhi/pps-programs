@@ -18,7 +18,7 @@
   1. Write a program to print Hello World.
   2. Write a program to fill your information.
   3. Write a program to find Sum of 2 numbers.
-  4. Write a program to Sum and average of numbers.
+  4. Write a program to find average of numbers.
   5. Write a program to find whether the Number is Even or Odd.
   6. Write a program to swap two numbers.
   7. Write a program to show years of experience of the employees.
@@ -32,12 +32,11 @@
  15. Write a program to show result of operands.
  16. Write a program to call a patterns of face and calculator.
  17. Write a program to find Maximum number.
- 18. Write a program to find Average of numbers.
- 19. Write a program to find Factorial using recursion .
- 20. Write a program of Addition and subtraction of 2 Matrix.
- 21. Write a program of Multiplication of  Matrix.
- 22. Write a program to find Prime number.
- 23. Write a program of days of the week.
+ 18. Write a program to find Factorial using recursion .
+ 19. Write a program of Addition and subtraction of 2 Matrix.
+ 20. Write a program of Multiplication of  Matrix.
+ 21. Write a program to find Prime number.
+ 22. Write a program of days of the week.
 ----
 
 ## 1:Write a program to print hello world.
@@ -113,27 +112,43 @@ Enter two numbers to get sum:45 55
 The result is :45 + 55= 100
 ```
 ----
-## 4:Write a program to Sum and average of numbers
+## 4:Write a program to find average of numbers.
 ```
-#include<stdio.h>
-  int main()
- {                                 
-     int a,b,c,d,e,sum,avg;
-                                                               
-   printf("Enter five numbers:");
-   scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
-    sum = a+b+c+d+e;
-   printf("The sum is:%d\n",sum);
-   avg = sum/5;
-   printf("The average is:%d\n",avg);
-  }
-``` 
-----
-**OUTPUT**:
-```
-Enter five numbers:1 2 3 4 5 
-The sum is:15
-The average is:3
+  #include<stdio.h>
+     int main()
+     {
+     int x,N;
+     float avg[1000],s,ans;
+
+     printf("\nEnter the Number of elements: ");
+     scanf("%d", &N);
+     printf("\n");
+
+     for(x=1; x<=N; x++)
+       {  printf("Enter [%d] element: ", x);
+          scanf("%f", &avg[x]);
+          s += avg[x];  }
+  
+       ans = s/N;
+
+     printf("\nAverage of %d elements = %.3f", N, ans);
+     return 0;
+     }
+ ```
+ **OUTPUT**:
+ ```
+ Enter the Number of elements: 8
+
+ Enter [1] element: 1
+ Enter [2] element: 2
+ Enter [3] element: 3
+ Enter [4] element: 4
+ Enter [5] element: 5
+ Enter [6] element: 6
+ Enter [7] element: 7
+ Enter [8] element: 8
+ 
+ Average of 8 elements = 4.500
 ```
 ----
 ## 5:Write a program to find number is even or odd.
@@ -325,10 +340,10 @@ return 0;
 15 x 8 = 120
 15 x 9 = 135
 15 x 10 = 150
-```
+````
 ----
 ## 12:Write a program to convert Fahrehnite to Celcius.
-```
+````
 #include<stdio.h>
 int main(){
 float f,c;
@@ -344,9 +359,10 @@ return 0;
 ```
 Enter temp in fahrehnite :450
 The celcius value is:232.222229
-```
-## 13: Write a program to show the table range .
-```
+````
+----
+## 13:Write a program to show the table range .
+````
 #include<stdio.h>
 int main()
 {
@@ -616,47 +632,8 @@ Enter The Second Value: 4
 
 Maximum value is: 5.00
 ````
-----
-## 18:Write a program to find average of numbers.
-```
-  #include<stdio.h>
-     int main()
-     {
-     int x,N;
-     float avg[1000],s,ans;
-
-     printf("\nEnter the Number of elements: ");
-     scanf("%d", &N);
-     printf("\n");
-
-     for(x=1; x<=N; x++)
-       {  printf("Enter [%d] element: ", x);
-          scanf("%f", &avg[x]);
-          s += avg[x];  }
-  
-       ans = s/N;
-
-     printf("\nAverage of %d elements = %.3f", N, ans);
-     return 0;
-     }
- ```
- **OUTPUT**:
- ```
- Enter the Number of elements: 8
-
- Enter [1] element: 1
- Enter [2] element: 2
- Enter [3] element: 3
- Enter [4] element: 4
- Enter [5] element: 5
- Enter [6] element: 6
- Enter [7] element: 7
- Enter [8] element: 8
- 
- Average of 8 elements = 4.500
-```
  ----
- ## 19:Write a program to show factorial of a number using recursion.
+ ## 18:Write a program to show factorial of a number using recursion.
  ```
  #include<stdio.h>
 int factorial(int n);
@@ -685,7 +662,7 @@ return a;
 120
 ```
 ---
- ## 20:Write a program to show addition and subtraction of two matrices.
+ ## 19:Write a program to show addition and subtraction of two matrices.
  ```
  #include<stdio.h>
     int main()
@@ -762,7 +739,7 @@ Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                 | 5.00     1.00 |
 ```
 ----
-## 21:Write a program to show Matrix multipication.
+## 20:Write a program to show Matrix multipication.
  ```
  #include<stdio.h>
     int main()
@@ -822,7 +799,7 @@ Multiplication of A,B is: | 66.00     40.00 |
                           | 12.00     20.00 |
 ```
 ----
-## 22: Write a program to find Prime number.
+## 21: Write a program to find Prime number.
 ```
 #include<stdio.h>
 int main()
@@ -851,7 +828,7 @@ return 0;
   8 is not a Prime Number
 ````
 ----
-## 23:Write a program of days of the week.
+## 22:Write a program of days of the week.
 ```
      #include<stdio.h>
      int main()
@@ -892,4 +869,3 @@ Enter the day Number: 3
 
 Tuesday
 ````
-
