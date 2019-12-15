@@ -30,51 +30,43 @@ int main()
 ``` 
  Hello world
 ```
-## 2:Write a program to fill your information
+## 2:Write a program to fill your information.
 
 ```
   // To fill your information
 #include<stdio.h>
-
-  void info();
   int main()
-  {
-     info();
-  }
-
-   void info()
-  {  char a[20];
-     int roll,age;
-     long int ph;
+  { 
+  char a[20];
+     int roll,age,ph;
    printf("\nEnter your information:\n");
    printf("Name = ");
-    scanf("%s",a);
+    scanf("%c",a);
   printf("\nRoll no=");
 scanf("%d",&roll);
 printf("\nAge = ");
  scanf("%d",&age);
  printf("\nPhone no.= ");
- scanf("%ld",&ph);
-
-printf("\nThe name is %s\nYour roll no is %d\nMy phone number is %ld\n My age is %d\n",a,roll,ph,age);
+ scanf("%d",&ph);
+printf("\nThe name is %c\n
+Your roll no is %d\n
+My phone number is %d\n
+My age is %d\n",a,roll,ph,age);
 
 }
 ```
 **OUTPUT:**
 ```
 Enter your information:
-Name = Jony
-
-Roll no=100012
-
-Age = 25
-
+Name = Harkirat
+Roll no=1905334
+Age = 18
 Phone no.= 9922115566
 
-The name is Jony
-Your roll no is 100012
+The name is Harkirat
+Your roll no is 1905334
 My phone number is 9922115566
- My age is 25
+ My age is 18
  ```
 
 ## 3:Write a program to find sum of two numbers
@@ -121,7 +113,7 @@ Enter five numbers:1 2 3 4 5
 The sum is:15
 The average is:3
 ```
-  ## 5:Write a program to find number is even or odd
+  ## 5:Write a program to find number is even or odd.
   ```
        #include<stdio.h>
 int main()
@@ -145,7 +137,7 @@ The  number is even
 Enter a number:7
 The number is odd
 ```
-## 6:Write a program to show the size of int,float,char,double,long,short
+## 6:Write a program to show the size of int,float,char,double,long,short.
 ```
  // size of int, float, char, double, long, short
 #include<stdio.h>
@@ -198,7 +190,7 @@ Perimeter of square:16
 Area of square:16
 Volume of square:64
 ```
-## 8:Write a program to show puts value upto n number using loop
+## 8:Write a program to show puts value upto n number using loop.
 ```
 // to show punishment using loop
  #include<stdio.h>
@@ -226,7 +218,7 @@ WORK HARD AND ACHIEVE SUCCESS
 WORK HARD AND ACHIEVE SUCCESS 
 WORK HARD AND ACHIEVE SUCCESS
 ```
-## 9:Write a program to show area,diameter,circumference of circle 
+## 9:Write a program to show area,diameter,circumference of circle .
 ```
    #include<stdio.h>
  int main()
@@ -248,7 +240,7 @@ diameter of circle is:12.000000
 circumference of circle:37.680000
 Area of circle:113.040001
 ```
-## 10:Write a program to find area and volume of rectangle
+## 10:Write a program to find area and volume of rectangle.
 ```
 //find area and volume of rectangle
 #include<stdio.h>
@@ -278,7 +270,7 @@ The area of rectangle is:12
 The volume is :48
 ```
  
- ##  11 .Write a program to represent a table of user input 
+ ##  11 .Write a program to represent a table of user input .
  
  ```
   // To represent a table of user input  number
@@ -309,7 +301,7 @@ return 0;
 15 x 9 = 135
 15 x 10 = 150
 ```
-## 12:Write a program to convert Fahrehnite to Celcius
+## 12:Write a program to convert Fahrehnite to Celcius.
 ```
 //to convert fahrehnite to celcius
 #include<stdio.h>
@@ -328,7 +320,7 @@ return 0;
 Enter temp in fahrehnite :450
 The celcius value is:232.222229
 ```
-## 13: Write a program to show the table range 
+## 13: Write a program to show the table range .
 ```
 //To show a range of table upto user input
 #include<stdio.h>
@@ -365,7 +357,7 @@ table of:5
 5 x 29 = 145
 5 x 30 = 150
 ```
-## 14:Write a program to show even table
+## 14:Write a program to show even table.
 ```
 //To show only even table
 #include<stdio.h>
@@ -409,7 +401,7 @@ tabel of:16
 16 X 19=304
 16 X 20=320
 ```
-## 15: Write a program to show result of operands
+## 15: Write a program to show result of operands.
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -446,7 +438,7 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 16:Write a program to call a patterns of face and calculator
+## 16:Write a program to call a patterns of face and calculator.
 ```
 // call a pattern of face or calculator
              #include<stdio.h>
@@ -830,40 +822,6 @@ return 0;
 Enter the day Number: 3
 
 Tuesday
-```
-##24:Write a Program to Store Information of a Student using Structure.
-
-    #include<stdio.h>
-    struct student
-    {  
-    char name[50];
-       long int ph,marks;
-       };
-    int main()
-    {
-      printf("\nEnter the information of student: \n");
-      struct student s;
-      printf("Enter Name: ");
-       scanf("%s", &s.name);
-      printf("Enter Phone Number: ");
-       scanf("%ld", &s.ph);
-      printf("Enter Marks: ");
-       scanf("%d", &s.marks);
-      printf("\nEntered Information is: \n");
-      printf("Name: %s\n", s.name);
-      printf("Age: %ld\n", s.ph);
-      printf("Marks: %d\n", s.marks);
-    return 0;
-    }
-    **Output**
-    Enter the information of student: 
-    Enter Name: harkirat
-    Enter Phone Number: 9000098907
-    Enter Marks: 84
-    Entered Information is: 
-    Name: harkirat
-    Phone Number: 9000098907
-    Marks: 84
 ```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTk0Njc2OTc1MiwxNjU2OTAxNTI4LC03Mj
