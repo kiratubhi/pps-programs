@@ -3,9 +3,9 @@
 
 ---
 
-<h3><b>Guru Nanak Dev Engineering College<br>
-   Programming for Problem Solving 
- <br>ESC-18105</b>
+<h3><b><center>Guru Nanak Dev Engineering College<br>
+        Programming for Problem Solving 
+ <br>ESC-18105</center></b>
   
   
      
