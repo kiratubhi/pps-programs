@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png"><br><h3>
+  <img width="250" height="250" src="http://i.imgur.com/EZtECRw.png"><br>
 <b>Guru Nanak Dev Engineering College<br>
         Programming for Problem Solving 
- <br>ESC-18105</b></h3>
+ <br>ESC-18105</b>
   </p>
      
     Name Harkirat kaur 
