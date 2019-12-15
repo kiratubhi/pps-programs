@@ -1,6 +1,6 @@
 
 <img src="https://i.imgur.com/EZtECRw.png" align="center">
-
+<div style="text-align:center"><img src="https://i.imgur.com/EZtECRw.png" /></div>
 ---
 
 <h3><b><center>Guru Nanak Dev Engineering College<br>
