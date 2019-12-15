@@ -4,8 +4,8 @@
 ---
 
 <h3><b>Guru Nanak Dev Engineering College<br>
-    ESC-18105
- <br>Programming for Problem Solving</b>
+   Programming for Problem Solving 
+ <br>ESC-18105</b>
   
   
      
@@ -13,10 +13,10 @@
     Branch-InformationTechnology
     Section - A2 
     Roll Number - 1921036
-    
+    University roll number - 1905334
     # My C programes 
 
-## 1:To print hello world
+## 1:Write a program to print hello world.
 
 ```
 //To print  hello world
@@ -30,7 +30,7 @@ int main()
 ``` 
  Hello world
 ```
-## 2:To fill your information
+## 2:Write a program to fill your information
 
 ```
   // To fill your information
@@ -77,7 +77,7 @@ My phone number is 9922115566
  My age is 25
  ```
 
-## 3:To find sum of two numbers
+## 3:Write a program to find sum of two numbers
 ```
 
      // to find sum of two numbers
@@ -99,7 +99,7 @@ Enter two numbers to get sum:45 55
  
 The result is :45 + 55= 100
 ```
-## 4:Sum and average of numbers
+## 4:Write a program to Sum and average of numbers
 ```
  // sum and average of number
 #include<stdio.h>
@@ -121,7 +121,7 @@ Enter five numbers:1 2 3 4 5
 The sum is:15
 The average is:3
 ```
-  ## 5:To find number is even or odd
+  ## 5:Write a program to find number is even or odd
   ```
        #include<stdio.h>
 int main()
@@ -145,7 +145,7 @@ The  number is even
 Enter a number:7
 The number is odd
 ```
-## 6:To show the size of int,float,char,double,long,short
+## 6:Write a program to show the size of int,float,char,double,long,short
 ```
  // size of int, float, char, double, long, short
 #include<stdio.h>
@@ -168,7 +168,7 @@ double:8
 short:2
 long:8
 ```
-## 7:To show area,perimeter,volume of square
+## 7:Write a program to show area,perimeter,volume of square
 ```
    
  //Area,premiter,volume of square
@@ -198,7 +198,7 @@ Perimeter of square:16
 Area of square:16
 Volume of square:64
 ```
-## 8:To show puts value upto n number using loop
+## 8:Write a program to show puts value upto n number using loop
 ```
 // to show punishment using loop
  #include<stdio.h>
@@ -226,7 +226,7 @@ WORK HARD AND ACHIEVE SUCCESS
 WORK HARD AND ACHIEVE SUCCESS 
 WORK HARD AND ACHIEVE SUCCESS
 ```
-## 9:To show area,diameter,circumference of circle 
+## 9:Write a program to show area,diameter,circumference of circle 
 ```
    #include<stdio.h>
  int main()
@@ -248,7 +248,7 @@ diameter of circle is:12.000000
 circumference of circle:37.680000
 Area of circle:113.040001
 ```
-## 10:To find area and volume of rectangle
+## 10:Write a program to find area and volume of rectangle
 ```
 //find area and volume of rectangle
 #include<stdio.h>
@@ -278,7 +278,7 @@ The area of rectangle is:12
 The volume is :48
 ```
  
- ##  11 .To represent a table of user input 
+ ##  11 .Write a program to represent a table of user input 
  
  ```
   // To represent a table of user input  number
@@ -309,7 +309,7 @@ return 0;
 15 x 9 = 135
 15 x 10 = 150
 ```
-## 12:To convert Fahrehnite to Celcius
+## 12:Write a program to convert Fahrehnite to Celcius
 ```
 //to convert fahrehnite to celcius
 #include<stdio.h>
@@ -328,7 +328,7 @@ return 0;
 Enter temp in fahrehnite :450
 The celcius value is:232.222229
 ```
-## 13: To show the table range 
+## 13: Write a program to show the table range 
 ```
 //To show a range of table upto user input
 #include<stdio.h>
@@ -365,7 +365,7 @@ table of:5
 5 x 29 = 145
 5 x 30 = 150
 ```
-## 14:To show even table
+## 14:Write a program to show even table
 ```
 //To show only even table
 #include<stdio.h>
@@ -409,7 +409,7 @@ tabel of:16
 16 X 19=304
 16 X 20=320
 ```
-## 15: To show result of operands
+## 15: Write a program to show result of operands
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -446,7 +446,7 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 16:To call a patterns of face and calculator
+## 16:Write a program to call a patterns of face and calculator
 ```
 // call a pattern of face or calculator
              #include<stdio.h>
@@ -531,7 +531,7 @@ ___________________
 |        |        |
 |________|________|
 ```
-## 17:To convert fahrehnite to celcius and kelvin
+## 17:Write a program to convert fahrehnite to celcius and kelvin
 ```
   // To covert  fahrenheit to celsius and kelvin
                  #include<stdio.h>
@@ -586,7 +586,7 @@ int main()
 *
 ```
  
- ## 19:To show factorial result
+ ## 19:Write a program to show factorial of a number.
  ```
  //To show factorial of user input
 #include<stdio.h>
@@ -643,7 +643,7 @@ Enter the value upto pattern is shown:8
 * * * * * * * * 
 ```
 
-## 21:Matrix multipication
+## 21:Write a program to show Matrix multipication.
  ```
 #include<stdio.h>
 int main()
