@@ -12,6 +12,33 @@
     University roll number - 1905334
     
     # My C programes 
+----
+## INDEX
+ 
+  1.Write a program to print Hello World.
+  2.Write a program to fill your information.
+  3.Write a program to find Sum of 2 numbers.
+  4.Write a program to Sum and average of numbers.
+  5.Write a program to find whether the Number is Even or Odd.
+  6.Write a program to swap two numbers.
+  7.Write a program to show years of experience of the employees.
+  8.Write a program to show puts value upto n number using loop.
+  9.Write a programto find Area, circumference of a Circle.
+  10.Write a program to find Area and volume of a Rectangle.
+  11.Write a program to represent a table.
+  12.Write a program to convert Fahrehnite to Celcius.
+  13.Write a program to show table range.
+  14.Write a program to show even table range.
+  15.Write a program to show result of operands.
+  16.Write a program to call a patterns of face and calculator.
+  17.Write a program to find Maximum number.
+  18.Write a program to find Average of numbers.
+  19.Write a program to find Factorial using recursion .
+  20.Write a program of Addition and subtraction of 2 Matrix
+  21.Write a program of Multiplication of  Matrix
+  22.Write a program to find Prime number
+  23.Write a program of days of the week
+
 
 ## 1:Write a program to print hello world.
 
@@ -374,7 +401,7 @@ enter the ending number5
  5 X 9 =45
  5 X 10 =50
 ```
-## 14:Write a program to show even table.
+## 14:Write a program to show even table range.
 ```
 //To show only even table
 #include<stdio.h>
@@ -432,7 +459,7 @@ enter the starting and ending number2
 6 X 9 = 54 
 6 X 10 = 60
 ```
-## 15: Write a program to show result of operands.
+## 15:Write a program to show result of operands.
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -859,21 +886,4 @@ Enter the day Number: 3
 
 Tuesday
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njc2OTc1MiwxNjU2OTAxNTI4LC03Mj
-g2NzQ5NjUsLTc4ODExMDUzMywxNDAxMzg0NjY0LDE2MTgwMjUy
-ODAsNDg3NDA0MzAxLDIwOTY4MjEwMzQsLTIxMjg5MTIwOTIsLT
-I2MDQ0OTE2NywtMjc3NjA5ODExLDExMzUyMDA5NjEsLTY0MzA4
-ODI1NiwzOTMzOTkyMzgsNzc0OTQ3NzEzLC0xOTM0OTcwMDY2LC
-0xNTMzMjE1ODU2LDQwNzQ1NzQyMiwtMjMyMDc4MTA4LDEzMTEw
-NDM5MzddfQ==
--->
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA1MDQxMjksMTk4NTg2OTYzMSwxOT
-UwNjM2OTVdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMDY1Mjg3XX0=
--->
-</body>
