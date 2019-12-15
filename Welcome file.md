@@ -531,59 +531,78 @@ ___________________
 |        |        |
 |________|________|
 ```
-## 17:Write a program to convert fahrehnite to celcius and kelvin
+## 17:Write a program to find maximum number.
 ```
-  // To covert  fahrenheit to celsius and kelvin
-                 #include<stdio.h>
- int main()
- {
-  float a,b,c;
-  printf("Enter a fahrenheit value:");
-  scanf("%f",&a);
-b=((a-32.00)*5.00)/9.00;
- printf("celsius value is:%.2f\n",b);
+ #include<stdio.h>
+    int max(float x,float y);
+    int main()
+    {
+         float x,y,z;
+         printf("\nEnter The First Value: ");
+         scanf("%f",&x);
+         printf("\nEnter The Second Value: ");
+         scanf("%f",&y);
+         z = max(x,y);
+         printf("\nMaximum value is: %.2f\n", z);
+         return 0;
+      }
+         int max(float x,float y)
+      {
+         float result;
+         if(x<y)
+         result = y;
+         else
+         result = x;
+         return result;
+    }
 
- printf("kelvin value is:%.2f\n",c=b+273.15);
-  return 0;} 
-```
-**OUTPUT**:
-```
-Enter a fahrenheit value:450
-celsius value is:232.22
-kelvin value is:505.37
+**Output**
+
+Enter The First Value: 5
+
+Enter The Second Value: 4
+
+Maximum value is: 5.00
+
 ```
 
-## 18:To show stars pattern
+## 18:Write a program to find average of numbers.
 ```
- // TO show stars using loop 
-#include<stdio.h>
-int main()
-{ int i,j,k;
- printf("Enter the no. to show pattern:");
- scanf("%d",&k);
- 
-  for(i=k;i>=1;i--)
- {
-  for(j=i;j>=1;j--)
- {
-  printf("* ");
- }
- printf("\n");
- }
- return 0;
- }
+  #include<stdio.h>
+     int main()
+     {
+     int x,N;
+     float avg[1000],s,ans;
+
+     printf("\nEnter the Number of elements: ");
+     scanf("%d", &N);
+     printf("\n");
+
+     for(x=1; x<=N; x++)
+       {  printf("Enter [%d] element: ", x);
+          scanf("%f", &avg[x]);
+          s += avg[x];  }
+  
+       ans = s/N;
+
+     printf("\nAverage of %d elements = %.3f", N, ans);
+     return 0;
+     }
  ```
  **OUTPUT**:
  ```
- Enter the no. to show pattern:8
-* * * * * * * * 
-* * * * * * * 
-* * * * * * 
-* * * * * 
-* * * * 
-* * * 
-* * 
-*
+ Enter the Number of elements: 8
+
+ Enter [1] element: 1
+ Enter [2] element: 2
+ Enter [3] element: 3
+ Enter [4] element: 4
+ Enter [5] element: 5
+ Enter [6] element: 6
+ Enter [7] element: 7
+ Enter [8] element: 8
+ 
+ Average of 8 elements = 4.500
 ```
  
  ## 19:Write a program to show factorial of a number.
@@ -609,108 +628,242 @@ return 0;
 Enter the factorial of:5
 5 X 4 X 3 X 2 X 1 X = 120
 ```
- ## 20:To show stars pattern 
+ ## 20:Write a program to show addition and subtraction of two matrices.
  ```
- //to show star pattern for n numbers
-#include<stdio.h>
-int main()
-{
- int i,j,k;
- printf("Enter the value upto pattern is shown:");
- scanf("%d",&k);
+ #include<stdio.h>
+    int main()
 
- for(i=1;i<=k;i++)
-{
-  for(j=1;j<=i;j++)
-{
-  printf("* ");
- }
- printf("\n");
- }
- return 0;
-}
+    {
+         float a,b,c,d,e,f,g,h,i,j,k,l;
+         printf("\nSample of Ist matrix: | a=1      b=2 |\n 
+         | c=3      d=4 |\n\n\
+         Sample of 2nd matrix: | e=5      f=6 |\n    
+         | g=7      h=8 |\n\n");
+         printf("Enter The Valve of a: ");
+         scanf("%f",&a);
+         printf("Enter The Valve of b: ");
+         scanf("%f",&b);
+         printf("Enter The Valve of c: ");
+         scanf("%f",&c);
+         printf("Enter The Valve of d: ");
+         scanf("%f",&d);
+         printf("Enter The Valve of e: ");
+         scanf("%f",&e);
+         printf("Enter The Valve of f: ");
+         scanf("%f",&f);
+         printf("Enter The Valve of g: ");
+         scanf("%f",&g);
+         printf("Enter The Valve of h: ");
+         scanf("%f",&h); 
+        
+         i = a+e;
+         j = b+f;
+         k = c+g;
+         l = d+h;
+         printf("\n\nSum of Matrix(A+B) is: | %.2f     %.2f |\n            
+         | %.2f     %.2f |",i,j,k,l)
+         i = a-e;
+         j = b-f;
+         k = c-g;
+         l = d-h;
+         printf("\n\nSubstraction of Matrix(A-B) is: | %.2f     %.2f |\n 
+         | %.2f     %.2f |",i,j,k,l);
+         i = e-a;
+         j = f-b;
+         k = g-c;
+         l = h-d;
+         printf("\n\nSubstraction of Matrix(B-A) is: | %.2f     %.2f |\n 
+         | %.2f     %.2f |",i,j,k,l); 
+         return 0;
+    }
 ```
 **OUTPUT**:
 ```
-Enter the value upto pattern is shown:8
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-* * * * * * 
-* * * * * * * 
-* * * * * * * * 
+Sample of Ist matrix: | a=1      b=2 |
+                      | c=3      d=4 |
+
+Sample of 2nd matrix: | e=5      f=6 |
+                      | f=7      h=8 |
+
+Enter The Valve of a: 7
+Enter The Valve of b: 5
+Enter The Valve of c: 4
+Enter The Valve of d: 0
+Enter The Valve of e: 3
+Enter The Valve of f: 5
+Enter The Valve of g: 9
+Enter The Valve of h: 1
+
+
+Sum of Matrix(A+B) is: | 10.00     10.00 |
+                       | 13.00     1.00 |
+
+Substraction of Matrix(A-B) is: | 4.00     0.00 |
+                                | -5.00     -1.00 |
+
+Substraction of Matrix(B-A) is: | -4.00     0.00 |
+                                | 5.00     1.00 |
 ```
 
 ## 21:Write a program to show Matrix multipication.
  ```
-#include<stdio.h>
-int main()
-{
-int sum=0,m,n,p,q,c,d,k;
-int first[10][10], second[10][10], multiply[10][10];
-// for matrix 1
-printf("Enter the number of rows and column of first matrix:\n");
-scanf("%d %d",&m,&n);
-printf("Enter elements of first matrix:\n");
+ #include<stdio.h>
+    int main()
+    {
+    float a,b,c,d,e,f,g,h,i,j,k,l;
 
-for(c=0;c<m;c++)
- for(d=0;d<n;d++)
-  scanf("%d",&first[c][d]);
-// for second matrix
-printf("Enter the number of rows and columns of second matrix:\n");
-scanf("%d %d",&p,&q);
+    printf("\nSample of Ist matrix: | a=1      b=2 |\n  
+    | c=3      d=4 |\n\n\
+    Sample of 2nd matrix: | e=5      f=6 |\n  
+    | f=7      h=8 |\n\n");
+         printf("Enter The Valve of a: ");
+         scanf("%f",&a);
+         printf("Enter The Valve of b: ");
+         scanf("%f",&b);
+         printf("Enter The Valve of c: ");
+         scanf("%f",&c);
+         printf("Enter The Valve of d: ");
+         scanf("%f",&d);
+         printf("Enter The Valve of e: ");
+         scanf("%f",&e);
+         printf("Enter The Valve of f: ");
+         scanf("%f",&f);
+         printf("Enter The Valve of g: ");
+         scanf("%f",&g);
+         printf("Enter The Valve of h: ");
+         scanf("%f",&h); 
 
-if(n!=p){
-printf("matrix multipication cannot be possible !!!!\n");}
+         i=(a*e)+(b*g);
+         j=(a*f)+(b*h);
+         k=(c*e)+(d*g);
+         l=(c*f)+(d*h);
 
-else{
-printf("Enter the elements of second matrix:\n");
-for(c=0;c<p;c++)
- for(d=0;d<q;d++)
-  scanf("%d",&second[c][d]);
+         printf("\nMultiplication of A,B is: | %.2f     %.2f |\n 
+         | %.2f     %.2f |",i,j,k,l);
 
-for(c=0;c<m;c++)
-{
- for(d=0;d<q;d++)
-{
-  for(k=0;k<p;k++)
-{                             
-  sum = sum + first[c][k] * second[k][d];
-  }
-   multiply[c][d] = sum;
- sum =0;
-}
-}
-
-  printf("product of the matrix:\n");
-  
-  for(c=0;c<m;c++)
-{
-  for(d=0;d<q;d++)
-   printf("%d\t",multiply[c][d]);
-   printf("\n");
-}
-}                             
- return 0;
- }
+         return 0;
+    }
  ```
  **OUTPUT**:
  ```
- Enter the number of rows and column of first matrix:
-2 2
-Enter elements of first matrix:
-3 4
-5 6
-Enter the number of rows and columns of second matrix:
-2 2
-Enter the elements of second matrix:
-1 2
-3 4
-product of the matrix:
-15      22
-23      34
+ Sample of Ist matrix: | a=1      b=2 |
+                      | c=3      d=4 |
+
+Sample of 2nd matrix: | e=5      f=6 |
+                      | f=7      h=8 |
+
+Enter The Valve of a: 7
+Enter The Valve of b: 5
+Enter The Valve of c: 4
+Enter The Valve of d: 0
+Enter The Valve of e: 3
+Enter The Valve of f: 5
+Enter The Valve of g: 9
+Enter The Valve of h: 1
+
+Multiplication of A,B is: | 66.00     40.00 |
+                          | 12.00     20.00 |
+```
+## 22: Write a program to find Prime number.
+```
+#include<stdio.h>
+int main()
+{
+int a,b = 0;
+printf("\nEnter the Number: ");
+scanf("%d",&a);
+  for(int x=2; x<a; x++)
+  {  if(a%x==0)
+     {  flag = 1;
+        break;  }
+  }
+if(b == 1)
+printf("%d is not a Prime Number",a);
+if(b== 0)
+printf("%d is a Prime Number",a);
+return 0;
+}
+
+**Output**
+  Enter the Number: 7
+  7 is a Prime Number
+
+  Enter the Number: 8
+  8 is not a Prime Number
+```
+##23:Write a program of days of the week.
+```
+     #include<stdio.h>
+     int main()
+     {
+     int x;
+     printf("\n\nEnter the day Number: ");
+     scanf("%d", &x);
+     switch(x)
+     {
+       case 1:
+       if(x==1)
+       {  printf("\nSunday");  }
+       case 2:
+       if(x==2)
+       {  printf("\nMonday");  }
+       case 3:
+       if(x==3)
+       {  printf("\nTuesday");  }
+       case 4:
+       if(x==4)
+       {  printf("\nWednesday");  }
+       case 5:
+       if(x==5)
+       {  printf("\nThursday");  }
+       case 6:
+       if(x==6)
+       {  printf("\nFriday");  }
+           case 7:
+       if(x==7)
+       {  printf("\nSaturday");  
+     } 
+     return 0;
+     }
+**Output**
+
+Enter the day Number: 3
+
+Tuesday
+```
+##24:Write a Program to Store Information of a Student using Structure.
+
+    #include<stdio.h>
+    struct student
+    {  
+    char name[50];
+       long int ph,marks;
+       };
+    int main()
+    {
+      printf("\nEnter the information of student: \n");
+      struct student s;
+      printf("Enter Name: ");
+       scanf("%s", &s.name);
+      printf("Enter Phone Number: ");
+       scanf("%ld", &s.ph);
+      printf("Enter Marks: ");
+       scanf("%d", &s.marks);
+      printf("\nEntered Information is: \n");
+      printf("Name: %s\n", s.name);
+      printf("Age: %ld\n", s.ph);
+      printf("Marks: %d\n", s.marks);
+    return 0;
+    }
+    **Output**
+    Enter the information of student: 
+    Enter Name: harkirat
+    Enter Phone Number: 9000098907
+    Enter Marks: 84
+    Entered Information is: 
+    Name: harkirat
+    Phone Number: 9000098907
+    Marks: 84
 ```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTk0Njc2OTc1MiwxNjU2OTAxNTI4LC03Mj
