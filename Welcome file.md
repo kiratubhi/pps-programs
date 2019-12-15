@@ -1,4 +1,4 @@
- 
+<body bgcolor="pink"> 
 <img src="https://i.imgur.com/EZtECRw.png" align="center">
 
 ---
@@ -879,3 +879,4 @@ UwNjM2OTVdfQ==
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjYwMDY1Mjg3XX0=
 -->
+</body>
