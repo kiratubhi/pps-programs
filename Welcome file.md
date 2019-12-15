@@ -1,4 +1,4 @@
-<body bgcolor="pink"> 
+
 <img src="https://i.imgur.com/EZtECRw.png" align="center">
 
 ---
@@ -7,7 +7,7 @@
         Programming for Problem Solving 
  <br>ESC-18105</center></b>
   
-  
+  <body bgcolor="pink"> 
      
     Name Harkirat kaur 
     Branch-InformationTechnology
